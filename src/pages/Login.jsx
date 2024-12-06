@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useUser } from "../lib/context/user";
+import { useUser } from "./pages/user";
 
 export function Login() {
   const user = useUser();

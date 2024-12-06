@@ -1,6 +1,6 @@
 import { Login } from "./pages/Login";
 import { Home } from "./pages/Home";
-import { UserProvider, useUser } from "./lib/context/user";
+import { UserProvider, useUser } from "./pages/user";
 
 function App() {
   const isLoginPage = window.location.pathname === "/login";
