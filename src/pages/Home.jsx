@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useUser } from "../lib/context/user";
+import { useUser} from "../lib/context/user";
 import { useIdeas } from "../lib/context/Ideas";
 
 export function Home() {
